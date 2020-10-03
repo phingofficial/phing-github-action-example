@@ -1,4 +1,4 @@
-name: BUILD
+name: CI
 
 on: [push]
 
@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Phing Build
-        uses: php-actions/phpunit@dev-master
+        uses: phingofficial/phing
