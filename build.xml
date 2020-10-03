@@ -5,6 +5,5 @@
 >
     <target name="hello-world">
         <echo>Hello World!</echo>
-        <echo>Test</echo>
     </target>
 </project>
