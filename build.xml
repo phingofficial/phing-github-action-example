@@ -4,6 +4,6 @@
          description="This is an example buildfile for Phing."
 >
     <target name="hello-world">
-        <echo>Hello World!</echo>
+        <echo msg="Hello World!"/>
     </target>
 </project>
