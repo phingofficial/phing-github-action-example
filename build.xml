@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <project name="Hello World Example"
          default="hello-world"
          description="This is an example buildfile for Phing."
