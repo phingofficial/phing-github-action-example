@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 
-<project name="Hello World Example" default="hello-world" description="This is an example buildfile for Phing.">
+<project name="Hello World Example"
+         default="hello-world"
+         description="This is an example buildfile for Phing."
+>
     <target name="hello-world">
         <echo msg="Hello World!"/>
     </target>
