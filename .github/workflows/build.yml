@@ -1,0 +1,12 @@
+name: BUILD
+
+on: [push]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Phing Build
+        uses: php-actions/phpunit@dev-master
