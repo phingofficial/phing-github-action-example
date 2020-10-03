@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Phing Build
-        uses: phingofficial/phing@master
+        uses: phingofficial/phing-github-action@main
