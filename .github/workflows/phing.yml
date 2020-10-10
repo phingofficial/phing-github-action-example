@@ -11,4 +11,6 @@ jobs:
       - name: Phing Build
         uses: phingofficial/phing-github-action@main
         with:
+          version: 3.0.0-alpha4
+          user-properties: prop=FooBar
           verbose: true
