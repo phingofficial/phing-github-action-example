@@ -6,4 +6,7 @@
     <target name="hello-world">
         <echo msg="Hello World!"/>
     </target>
+    <target name="foo">
+        <echo msg="${prop}"/>
+    </target>
 </project>
