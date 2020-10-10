@@ -13,4 +13,5 @@ jobs:
         with:
           version: 3.0.0-alpha4
           user-properties: prop=FooBar
+          targets: foo
           verbose: true
